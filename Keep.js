@@ -14,6 +14,17 @@ menuToggle.addEventListener('click', () => {
     
 });
 
+// const Uvalue = "israel"
+// const dbRequest = indexedDB.open("noteKeep",1)
+// console.log(dbRequest);
+// setTimeout(() => {
+//     const db = dbRequest.result
+//     db.createObjectStore("note",{keyPath:"id"})
+// console.log(db);
+// }, 1000);
+
+
+
 // Dark mode toggle logic
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
@@ -208,3 +219,4 @@ const deleteCard = (index) => {
     }
 }
 mapping()
+
